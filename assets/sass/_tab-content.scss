@@ -1,0 +1,86 @@
+$break-small: 768px;
+$break-large: 1200px;
+
+.app_tab_content_area {
+    .tab_menu {
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #3981e5;
+
+        li {
+            a {
+                color: #000000;
+                font-weight: 900;
+                font-size: 11px;
+
+                @media screen and (min-width: $break-small) {
+                    font-size: 14px;
+                }
+
+                &.nav-link.active {
+
+                    color: #3981e5 !important;
+                    border-style: solid;
+                    border-top-width: 5px;
+                    border-top-color: #3981e5 !important;
+                    border-left-width: 0px;
+                    border-bottom-width: 1px;
+                    border-bottom-color: #3981e5 !important;
+                    border-right-width: 1px;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        .summary-details {
+            h5 {
+                color: $senondary_color;
+            }
+
+            h1 {
+                color: #000000;
+                font-weight: 500;
+                font-size: 25px;
+
+                @media screen and (min-width: $break-small) {
+
+                    font-size: 33px;
+                }
+            }
+
+            .media {
+                img {
+                    border-radius: 15px;
+                }
+
+                .media-body {
+                    h1 {
+                        color: #212121;
+                    }
+
+                    p {
+                        color: #2d2d2d;
+                        font-size: 14px;
+
+                        .app_contributors {
+                            color: $senondary_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.see_more {
+    border: 2px solid #d8d8d8;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3981e5;
+}

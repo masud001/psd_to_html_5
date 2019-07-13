@@ -1,0 +1,134 @@
+$senondary_color:#737373;
+$android_color: #37b779;
+$apple_icon: #3981e5;
+
+.app_details_area {
+    .media {
+        .app_logo {
+            border-radius: 15px;
+        }
+
+        .media-body {
+            h5 {}
+
+            button {
+                text-transform: uppercase;
+                color: #fff;
+                background-color: #3981E5;
+                border: 0px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16);
+
+                .fa-download {
+                    color: #9cc0f2;
+                }
+
+                .fa-apple {
+                    color: #9cc0f2;
+                }
+            }
+
+            .secondary-headding {
+                color: $senondary_color;
+                font-size: 14px;
+            }
+
+            .free {
+                color: #4488e7;
+                margin-top: 0px;
+                display: unset;
+            }
+
+            .app_rating {
+                color: #000000;
+                font-weight: 900;
+                font-size: 14px;
+            }
+
+            .fa-star {
+                color: #f4b61e;
+                font-size: 14px;
+                font-weight: 900;
+            }
+
+            .reviews {
+                color: $senondary_color;
+                font-size: 14px;
+            }
+
+            .download {
+                color: $senondary_color;
+                font-size: 14px;
+
+                .fa-download {
+                    font-weight: 900;
+                }
+            }
+
+            .fa-android {
+                color: $android_color;
+                font-weight: 900;
+                font-size: 14px;
+            }
+
+            .fa-apple {
+                color: $apple_icon;
+                font-weight: 900;
+                font-size: 14px;
+            }
+
+            .apps_links {
+                font-size: 14px;
+                font-weight: normal;
+                color: #4488e7;
+                text-transform: capitalize;
+            }
+
+            .user_helpful {
+                .fa-user {
+                    color: #37b779;
+                    font-weight: 900;
+                }
+
+                background-color: #e7f6ef;
+                color: #000000;
+                font-size: 14px;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .trading {
+                .fa-fire {
+                    color: #ff512f;
+                    font-weight: 900;
+                }
+
+                background-color: #ffebe8;
+                color: #000000;
+                font-size: 14px;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .editirs {
+                .fa-star {
+                    color: #a65ce7;
+                    font-weight: 900;
+                }
+
+                background-color: #f5ecfc;
+                color: #000000;
+                font-size: 14px;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+
+            .app_purches {
+                background-color: #ececec;
+                color: #000000;
+                font-size: 14px;
+                font-weight: 900;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

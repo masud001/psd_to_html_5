@@ -1,0 +1,58 @@
+$brand-bg-color:#3981e5;
+$white: #ffffff;
+
+.header_background_color {
+    background-color: $brand-bg-color;
+}
+
+.appGrooves_header {
+    color: $white !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16);
+
+    .navbar-toggler {
+        padding: .25rem 15px .25rem 0;
+        font-size: 1.50rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        color: #ffffff;
+
+    }
+
+    .search_user {
+        .search_icon {
+            i {
+                font-size: 22px;
+                font-weight: 900;
+                color: $white;
+                line-height: 32px;
+                height: 32px;
+                cursor: pointer;
+            }
+
+        }
+
+        .recommendation_btn {
+            display: block;
+            border-radius: 14px;
+            border: 1px solid #fff;
+            background-color: transparent;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: .4px;
+            line-height: 14px;
+            text-transform: uppercase;
+            transition: opacity .3s;
+        }
+
+        .user_avater {
+            cursor: pointer;
+        }
+    }
+}
+
+a.appGrooves_brand {
+    color: #ffffff !important;
+}

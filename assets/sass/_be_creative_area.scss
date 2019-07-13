@@ -1,0 +1,36 @@
+.be_creative_area {
+
+    .media-body {
+        h1 {
+            color: #000000;
+            font-weight: 500;
+            font-size: 25px;
+
+            @media screen and (min-width: $break-small) {
+
+                font-size: 33px;
+            }
+
+        }
+    }
+
+    .media_see_all_btn {
+        button {
+            background-color: #f1f1f1;
+            color: #3981e5;
+            text-transform: uppercase;
+            font-weight: 900;
+            position: relative;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            left: 50%;
+
+            @media screen and (min-width: $break-small) {
+                -webkit-transform: translate(50%, -50%);
+                transform: translate(50%, -50%);
+            }
+
+        }
+    }
+}

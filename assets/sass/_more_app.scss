@@ -1,0 +1,43 @@
+.more_apps_section {
+    .more_apps_heading {
+        background-color: #f9f9f9;
+        border-top: 2px solid #3981e5;
+    }
+
+    .more_apps_heading_2 {
+        color: #3981e5;
+        text-transform: capitalize;
+    }
+
+    .card {
+        border: 0px solid transparent;
+
+        img {
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: #000000;
+            font-weight: 500;
+            font-size: 25px;
+
+            @media screen and (min-width: $break-small) {
+
+                font-size: 33px;
+            }
+        }
+    }
+}
+
+.app_promo_area {
+    h1 {
+        color: #000000;
+        font-weight: 500;
+        font-size: 25px;
+
+        @media screen and (min-width: $break-small) {
+
+            font-size: 33px;
+        }
+    }
+}
